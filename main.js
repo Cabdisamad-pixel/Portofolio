@@ -37,6 +37,10 @@ Button2.addEventListener('click', ()=> {
     parlirow.textContent = 'Advanced';
     lirow1.appendChild(parlirow);
   });
+  const Adeegyada = document.getElementById('Adeegyada');
+  Adeegyada.addEventListener('click', ()=> {
+
+  });
 
 
 
