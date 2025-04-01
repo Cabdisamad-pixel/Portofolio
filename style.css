@@ -1,0 +1,430 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    padding-top: 1%;
+    background-color: rgba(255, 255, 255, 0.945);
+    position: fixed;
+    top: 0%;
+    overflow: hidden;
+}
+#logo{
+    margin-right: 15%;
+    margin-left: 13%;
+}
+nav {
+    width: 35%;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+nav a {
+    text-decoration: none;
+    color:rgb(114, 108, 108);
+    font-size: large;
+    font-weight:500;
+    font-family:monospace;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    max-height: 20px;
+    margin-right: 12px;
+
+}
+.Active{
+    background-color: black;
+    color: white;
+}
+nav a:hover{
+    background-color: rgb(107, 103, 103);
+    color: white;
+}
+#GitHub{
+    margin-left: 180px;
+    margin-top: 5px;
+}
+main{
+    display: flex;
+    margin-top: 11%;
+    margin-left: 5%;
+    padding: 20px;
+}
+main section{
+    margin-left: 16%;
+    width: 30%;
+    margin-top:50px;
+}
+#world{
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+main section h6{
+    margin-bottom: 9px;
+    font-size: large;
+}
+main section h4{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    /* font-size: large; */
+}
+#profile{
+    background-image: url(pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 280px;
+    border-radius: 80%;
+}
+
+/* Styling About Page */
+
+#About-Main{
+    margin-top: 6%;
+    /* background-color: rgb(235, 232, 229); */
+    width: 70%;
+    margin-left: 170px;
+    padding: 10px;
+    height: 70%;
+
+}
+#AboutMe{
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 100%;
+    border-radius: 11px;
+}
+
+#AboutMe p{
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+
+}
+#About{
+    display: flex;
+
+
+}
+#image{
+    background-image: url(pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 0%; */
+    height: 230px;
+    border-radius: 80%;
+    margin-right: 70px;
+    margin-top: 20px;
+    flex-basis:27%;
+    margin-left: 50px;
+}
+#discription{
+    flex-basis: 50%;
+    margin-top: 20px;
+}
+#Skills{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#Skills p{
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+}
+#Buttons{
+    margin-top: 15px;
+
+}
+button{
+    padding: 5px 8px 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: black;
+    
+}
+button a{
+    
+    text-decoration: none;
+}
+.Active-Button{
+    background-color: black;
+    color: white;
+}
+#Skills{
+    display: flex;
+    flex-direction: column;
+}
+#row1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#row1 li{
+    list-style: none;
+    margin-right: 100px;
+    font-size: large;
+    border: 1px solid #000;
+    padding: 13px 19px 13px 19px;
+    display: flex;
+    font-family: monospace;
+    width: 110px;
+    border-radius: 3px;
+    /* margin-bottom: 17px; */
+}
+#row2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#row2 li{
+    list-style: none;
+    margin-right: 100px;
+    font-size: large;
+    border: 1px solid #000;
+    padding: 13px 19px 13px 19px;
+    display: flex;
+    font-family: monospace;
+    width: 110px;
+    border-radius: 3px;
+}
+#row3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#row3 li{
+    list-style: none;
+    margin-right: 100px;
+    font-size: large;
+    border: 1px solid #000;
+    padding: 13px 19px 13px 19px;
+    display: flex;
+    font-family: monospace;
+    width: 110px;
+    border-radius: 3px;
+}
+#row4{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    visibility:hidden;
+}
+#row4 li{
+    list-style: none;
+    margin-right: 100px;
+    font-size: large;
+    border: 1px solid #000;
+    padding: 13px 19px 13px 19px;
+    display: flex;
+    font-family: monospace;
+    width: 110px;
+    border-radius: 3px;
+}
+#Project1{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 260px;
+    padding: 20px 20px 5px 20px ;
+    margin-left: 60px;
+    border-radius: 7px;
+}
+#Project1 img{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#Project1 .head{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+#Project1 p{
+    margin-bottom: 9px;
+    font-size: 15px;
+    /* font-family: monospace; */
+}
+#Project1 .LANG{
+    margin-top: 5px ;
+    text-decoration: none;
+    color: rgb(210, 83, 83);
+    font-size: 13px;
+    font-weight: bold;
+}
+#Project1 ul{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+#Project1 ul li{
+    margin-right: 7px;
+}
+.footerProject{
+    display: flex;
+    justify-content: space-between;
+}
+.eng{
+    display: flex;
+    margin-top: 8px;
+}
+.eng img{
+    margin-right: 3px;
+}
+
+/* styling project2 */
+
+#Project2{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 260px;
+    padding: 20px 20px 5px 20px ;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+#Project2 img{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#Project2 .head{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+#Project2 p{
+    margin-bottom: 9px;
+    font-size: 15px;
+    /* font-family: monospace; */
+}
+#Project2 .LANG{
+    margin-top: 5px ;
+    text-decoration: none;
+    color: rgb(210, 83, 83);
+    font-size: 13px;
+    font-weight: bold;
+}
+#Project2 ul{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+#Project2 ul li{
+    margin-right: 7px;
+}
+.footerProject{
+    display: flex;
+    justify-content: space-between;
+}
+.eng{
+    display: flex;
+    margin-top: 8px;
+}
+.eng img{
+    margin-right: 3px;
+}
+
+/* Styling Aricle 3 which means project 3 */
+
+#Project3{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 260px;
+    padding: 20px 20px 5px 20px ;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+#Project3 img{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#Project3 .head{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+#Project3 p{
+    margin-bottom: 9px;
+    font-size: 15px;
+    /* font-family: monospace; */
+}
+#Project3 .LANG{
+    margin-top: 5px ;
+    text-decoration: none;
+    color: rgb(210, 83, 83);
+    font-size: 13px;
+    font-weight: bold;
+}
+#Project3 ul{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+#Project3 ul li{
+    margin-right: 7px;
+}
+.footerProject{
+    display: flex;
+    justify-content: space-between;
+}
+.eng{
+    display: flex;
+    margin-top: 8px;
+}
+.eng img{
+    margin-right: 3px;
+}
+
+/* styling service page */
+
+#Adeegyada{
+    margin-top: 11%;
+    margin-left: 10%;
+    padding: 20px;
+    display: block;
+}
+
+#Service1{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px 15px 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 20px;
+}
+.Service{
+    display: flex;
+}
+.Service p{
+    margin-top: 30px;
+}
+
+
+#Service2{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px 15px 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 20px;
+}
+.Service{
+    display: flex;
+}
+.Service p{
+    margin-top: 30px;
+}
