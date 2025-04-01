@@ -247,16 +247,19 @@ button a{
     font-family: monospace;
 }
 #Project1 p{
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     font-size: 15px;
     /* font-family: monospace; */
 }
 #Project1 .LANG{
-    margin-top: 5px ;
+    margin-top: 7px ;
     text-decoration: none;
-    color: rgb(210, 83, 83);
+    color: rgb(95, 90, 90);
     font-size: 13px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 #Project1 ul{
     list-style: none;
@@ -266,10 +269,6 @@ button a{
 }
 #Project1 ul li{
     margin-right: 7px;
-}
-.footerProject{
-    display: flex;
-    justify-content: space-between;
 }
 .eng{
     display: flex;
@@ -301,16 +300,18 @@ button a{
     font-family: monospace;
 }
 #Project2 p{
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     font-size: 15px;
     /* font-family: monospace; */
 }
 #Project2 .LANG{
-    margin-top: 5px ;
+    margin-top: 7px ;
     text-decoration: none;
-    color: rgb(210, 83, 83);
-    font-size: 13px;
-    font-weight: bold;
+    color: rgb(95, 90, 90);
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #Project2 ul{
     list-style: none;
@@ -320,10 +321,6 @@ button a{
 }
 #Project2 ul li{
     margin-right: 7px;
-}
-.footerProject{
-    display: flex;
-    justify-content: space-between;
 }
 .eng{
     display: flex;
@@ -355,16 +352,19 @@ button a{
     font-family: monospace;
 }
 #Project3 p{
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     font-size: 15px;
     /* font-family: monospace; */
 }
 #Project3 .LANG{
-    margin-top: 5px ;
+    margin-top: 7px ;
     text-decoration: none;
-    color: rgb(210, 83, 83);
+    color: rgb(95, 90, 90);
     font-size: 13px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 #Project3 ul{
     list-style: none;
@@ -374,10 +374,6 @@ button a{
 }
 #Project3 ul li{
     margin-right: 7px;
-}
-.footerProject{
-    display: flex;
-    justify-content: space-between;
 }
 .eng{
     display: flex;
