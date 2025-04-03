@@ -31,16 +31,26 @@ Button2.addEventListener('click', ()=> {
    TechSkills.style.order='4';
   });
 
-  lirow1.addEventListener('click', ()=> {
-    const parlirow = document.createElement('p');
-    alert('dcjdsch d')
-    parlirow.textContent = 'Advanced';
-    lirow1.appendChild(parlirow);
-  });
-  const Adeegyada = document.getElementById('Adeegyada');
-  Adeegyada.addEventListener('click', ()=> {
+  // lirow1.addEventListener('click', ()=> {
+  //   const parlirow = document.createElement('p');
+  //   alert('dcjdsch d')
+  //   parlirow.textContent = 'Advanced';
+  //   lirow1.appendChild(parlirow);
+  // });
+  // const Adeegyada = document.getElementById('Adeegyada');
+  // Adeegyada.addEventListener('click', ()=> {
 
-  });
+  // });
+
+  // const Typing =document.getElementById('Typing');
+  // Typing = new typed ('.typing',{
+  //   strings: ['Software Engineer', 'Frontend Developer', 'UI/UX Designer', 'Back-end Developer'],
+  //   typeSpeed: 50,
+  //   backSpeed: 50,
+  //   loop: true,
+  //   showCursor: true,
+  //   cursorChar: '|'
+  // });
 
 
 

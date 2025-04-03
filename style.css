@@ -62,10 +62,56 @@ main section{
     margin-bottom: 7px;
     font-size: 17px;
 }
-main section h6{
+#AnimatedText{
     margin-bottom: 9px;
     font-size: large;
 }
+#AnimatedText span::before{
+    content: "Front End Developer";
+    color: #ff7f50;
+    animation: words 20s infinite ;
+
+}
+#AnimatedText span::after{
+    content: "";
+    position: absolute;
+    width:auto;
+    height: 21px;
+    background-color: #fff;
+    border-left: 2px solid #ff7f50;
+    margin-left:2px;
+    animation: cursor .8s infinite;
+}
+@keyframes cursor{
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words{
+    0%,33%{
+        content: "Web Designer";
+        
+    }
+    34%,67%{
+        content: "Back End Devloper";
+
+    }
+    68%,100%{
+        content: "UI/UX Designer";
+
+    }
+}
+
+/* @keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(10% + 8px);
+    }
+} */
 main section h4{
     font-size: xx-large;
     margin-bottom: 10px;
